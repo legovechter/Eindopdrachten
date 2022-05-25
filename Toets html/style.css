@@ -1,0 +1,60 @@
+@media screen and (max-width: 490px) {
+    .flex-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.grid-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative;
+}
+
+.item {
+    background-color: blue;
+    width: 281px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.item2 {
+    background-color: green;
+    width: 281px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.item3 {
+    background-color: red;
+    width: 281px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.item4 {
+    background-color: blue;
+    text-align: center;
+    width: 280px;
+    font-size: 25px;
+    flex-grow: 1;
+}
+
+nav {
+    position: relative;
+    border: 5px solid black;
+    padding: 10px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}

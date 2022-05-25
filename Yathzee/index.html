@@ -14,8 +14,202 @@
 
     </header>
     <article>
+        <aside>
+            <div class="grid-container">
+                <div class="item2">
+                    Score:
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="item">
+                    Option:
+                </div>
+                <div class="item">
+                    Player 1 score:
+                </div>
+                <div class="item">
+                    Player 2 score:
+                </div>
+                <div class="item">
+                    Ones
+                </div>
+                <div class="item">
+                    <p id="onesPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="onesEnemy"></p>
+                </div>
+                <div class="item">
+                    Twos
+                </div>
+                <div class="item">
+                    <p id="twosPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="twosEnemy"></p>
+                </div>
+                <div class="item">
+                    Threes
+                </div>
+                <div class="item">
+                    <p id="threesPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="threesEnemy"></p>
+                </div>
+                <div class="item">
+                    Fours
+                </div>
+                <div class="item">
+                    <p id="foursPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="foursEnemy"></p>
+                </div>
+                <div class="item">
+                    Fives
+                </div>
+                <div class="item">
+                    <p id="fivesPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="fivesEnemy"></p>
+                </div>
+                <div class="item">
+                    Sixes
+                </div>
+                <div class="item">
+                    <p id="sixesPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="sixesEnemy"></p>
+                </div>
+                <div class="item">
+                    Sum:
+                </div>
+                <div class="item">
 
+                </div>
+                <div class="item">
+
+                </div>
+                <div class="item">
+                    Bonus:
+                </div>
+                <div class="item">
+
+                </div>
+                <div class="item">
+
+                </div>
+                <div class="item">
+                    Three of a kind
+                </div>
+                <div class="item">
+                    <p id="threeofkindPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="threeofkindEnemy"></p>
+                </div>
+                <div class="item">
+                    Four of a kind
+                </div>
+                <div class="item">
+                    <p id="fourofkindPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="fourofkindEnemy"></p>
+                </div>
+                <div class="item">
+                    Full House
+                </div>
+                <div class="item">
+                    <p id="fullhousePlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="fullhouseEnemy"></p>
+                </div>
+                <div class="item">
+                    Small straight
+                </div>
+                <div class="item">
+                    <p id="smallPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="smallEnemy"></p>
+                </div>
+                <div class="item">
+                    Big straight
+                </div>
+                <div class="item">
+                    <p id="bigPlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="bigEnemy"></p>
+                </div>
+                <div class="item">
+                    Chnace
+                </div>
+                <div class="item">
+                    <p id="chancePlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="chanceEnemy"></p>
+                </div>
+                <div class="item">
+                    Yahtzee
+                </div>
+                <div class="item">
+                    <p id="yahtzeePlayer"></p>
+                </div>
+                <div class="item">
+                    <p id="yahtzeeEnemy"></p>
+                </div>
+                <div class="item">
+                    Total score:
+                </div>
+                <div class="item">
+
+                </div>
+                <div class="item">
+
+                </div>
+            </div>
+
+        </aside>
+
+        <br>
+        <div class="flex-container">
+            <button id="1" class="dices" type="button" onclick="diceEvent(this.id)"><h1 id="value"></h1></button>
+            <button id="2" class="dices" type="button" onclick="diceEvent(this.id)"><h1 id="value1"></h1></button>
+            <button id="3" class="dices" type="button" onclick="diceEvent(this.id)"><h1 id="value2"></h1></button>
+            <button id="4" class="dices" type="button" onclick="diceEvent(this.id)"><h1 id="value3"></h1></button>
+            <button id="5" class="dices" type="button" onclick="diceEvent(this.id)"><h1 id="value4"></h1></button>
+
+        </div>
+        <div class="container">
+            <button class="ui" type="button" onclick="rollDice()">Roll dice</button>
+            <button class="ui" type="button" onclick="resetTable()">Reset game</button>
+
+        </div>
+
+        <div class="flex-container">
+            <button id="stored" class="stored" type="button" onclick="diceEvent2(this.id)"><h1 id="numbHold"></h1></button>
+            <button id="stored1" class="stored" type="button" onclick="diceEvent2(this.id)"><h1 id="numb2Hold"></h1></button>
+            <button id="stored2" class="stored" type="button" onclick="diceEvent2(this.id)"><h1 id="numb3Hold"></h1></button>
+            <button id="stored3" class="stored" type="button" onclick="diceEvent2(this.id)"><h1 id="numb4Hold"></h1></button>
+            <button id="stored4" class="stored" type="button" onclick="diceEvent2(this.id)"><h1 id="numb5Hold"></h1></button>
+
+        </div>
+
+        <br>
+
+        <h1 id="text"></h1>
     </article>
+
+    <script src="test.js"></script>
+
+    
 </body>
 
 </html>
